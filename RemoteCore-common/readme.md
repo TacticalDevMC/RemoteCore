@@ -4,7 +4,7 @@
 
 | RemoteCore API | | |
 | --- | --- | --- |
-| <a href="https://github.com/TacticalDevMC/RemoteCore/wiki/use-api"><img height="80px" width="170px" src="https://piggypiglet.me/includes/img/portfolio/rpf.png"></a>
+| <a href="https://github.com/TacticalDevMC/RemoteCore/wiki/Use-API"><img height="80px" width="170px" src="https://piggypiglet.me/includes/img/portfolio/rpf.png"></a>
 
 <h3 align="right">─────── Contact</h3>
 <h4 align="right">Chat met mij in de <a href="https://discord.gg/JATdrn7">Fair Development</a> discord, of<br/>mijn persoonlijke <a href="Soon">discord</a>.</h4>
