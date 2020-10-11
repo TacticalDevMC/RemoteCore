@@ -1,0 +1,4 @@
+name: RemoteCore
+version: ${project.version}
+main: com.github.tacticaldevmc.remotecore.remotecore.RemoteCoreBungeeCord
+description: De RemoteCore BungeeCord plugin

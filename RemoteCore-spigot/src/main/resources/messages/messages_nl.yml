@@ -1,0 +1,37 @@
+commands:
+  playerNotInDatabase: "%prefix% &cDe speler &c&l%s &cstaat niet in de database."
+  main:
+    user:
+      args: "%prefix% &7Gebruik: &c/remotecore user <player> [value]"
+      rank:
+        rankSet: "%prefix% &bU hebt de rank van de speler &3&l%s &bsuccesvol bewerkt!"
+  rank:
+    rankAlreadyExists: "%prefix% &cDe rank &4%s &cbestaat al."
+    rankNotExists: "%prefix% &cDe rank &4%s &cbestaat niet."
+    create:
+      args: "%prefix% &7Gebruik: &c/rank create <name> <prefix> <color>&7."
+      colorMustStartWith: "%prefix% &cDe color moet beginnen met een &c&l#&c."
+      rankCreated: "%prefix% &bDe rank &3&l%s &bis succesvol aangemaakt!"
+    delete:
+      args: "%prefix% &7Gebruik: &c/rank delete <name>&7."
+      rankDeleted: "%prefix% &bDe rank &3&l%s &bis succesvol verwijderd!"
+    info:
+      args: "%prefix% &7Gebruik: &c/rank info <name>&7."
+    list:
+      noRanks: "%prefix% &cEr zijn momenteel geen ranks! Doe &c&l/rank create &com een rank aan te maken."
+    edit:
+      args: "%prefix% &7Gebruik: &c/rank edit <name>&7."
+      stopped: "%prefix% &aU bent gestopt met de rank te bewerken! Wilt u dit opnieuw doen? Gebruik dan opnieuw &2/rank edit <rank>&a."
+      editMenuOpened: "%prefix% &aU kunt nu de rank &2%s &abewerken!"
+      chooseSectionsToContinue: "%prefix% &cOm verder te gaan moet u eerst een section hebben gekozen."
+      editCanceled: "%prefix% &aU hebt de bewerkingen stop gezet!"
+      editted: "%prefix% &bU hebt de rank &3&l%s &bsuccesvol bewerkt!"
+      changeName:
+        text: "&aU wilt de naam van deze rank veranderen! Type nu de naam in de chat. Als u dit niet wilt doen, type dan &cStop&a."
+      changePrefix:
+        text: "&aU wilt de prefix van deze rank veranderen! Type nu de nieuwe prefix in de chat. Als u dit niet wilt doen, type dan &cStop&a."
+      changeColor:
+        text: "&aU wilt de color van deze rank veranderen! Type nu de color in de chat. Als u dit niet wilt doen, type dan &cStop&a."
+
+online: "&aOnline"
+offline: "&4Offline"

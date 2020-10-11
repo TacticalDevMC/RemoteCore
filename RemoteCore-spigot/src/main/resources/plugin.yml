@@ -1,0 +1,45 @@
+name: RemoteCore
+version: ${project.version}
+main: com.github.tacticaldevmc.remotecore.remotecore.RemoteCoreSpigot
+api-version: 1.15
+authors: [TacticalDev]
+description: De RemoteCore Spigot plugin
+commands:
+  remotecore:
+    description: RemoteCore command
+    aliases:
+      - remcore
+      - rmcore
+      - rcore
+      - remotec
+      - rc
+  rank:
+    description: RemoteCore Rank Command
+
+permissions:
+  remotecore.command:
+    description: Give access to the /remotecore command
+    default: op
+    children:
+      remotecore.command.reload:
+        descrption: Give access to the /remotecore reload command
+        default: op
+      remotecore.command.user:
+        descrption: Give access to the /remotecore user command
+        default: op
+  remotecore.rank:
+    description: Give access to the /rank command
+    default: op
+    children:
+      remotecore.rank.create:
+        descrption: Give access to the /rank create command
+        default: op
+      remotecore.rank.delete:
+        descrption: Give access to the /rank delete command
+        default: op
+      remotecore.rank.edit:
+        descrption: Give access to the /rank edit command
+        default: op
+      remotecore.rank.info:
+        descrption: Give access to the /rank info command
+        default: op

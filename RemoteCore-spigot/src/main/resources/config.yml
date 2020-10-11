@@ -1,0 +1,59 @@
+#        REMOTECORE PLUGIN                    #
+#    Plugin created by TacticalDev            #
+#                                             #
+#    Discord Support Server:  Soon            #
+#    Github:                                  #
+# https://github.com/TacticalDevMC/RemoteCore #
+#                                             #
+#                                             #
+
+version: "1.0.0"
+
+# The first tag of a message
+prefix: "&3&lREMOTECORE &9● "
+
+# No permissions message
+noPerms: "&cYou don't have the right permissions for this command! You need the %permission% permission."
+
+# The debug of some more information
+debug: true
+
+# Control if you want a message if there is a newer version of RemoteCore
+update-checker: true
+
+# Choose the language of the plugin
+lang: "nl"
+
+# Set 'bungee' to true if you have a bungeecord server and you will use this plugin over all you're servers.
+# Set 'sync-bungee' to true if you want to sync the data over you're servers.
+bungee: false
+sync-bungee: false
+
+# Storage of the plugin, where should we store your data?
+# FILE - Storage data in a .yml file
+# MYSQL - Storage data in a MySQL database
+storage: "MYSQl"
+mysql:
+  host: ""
+  user: ""
+  password: ""
+  database: ""
+  port: 3306
+  table: "remotecore_"
+
+# If you want to sync the minecraft server with discord, enable this option.
+minecraft-discord:
+  enabled: false
+  # If you want to sync the data to discord (ranks etc..)
+  sync: false
+  # The sync interval, this only works if 'sync' is true.
+  sync-interval: 30
+  sync-list:
+    - ranks
+
+##############################
+#     REMOTECORE BOT         #
+##############################
+token: ""
+guild-id: ""
+log-channel-id: ""
