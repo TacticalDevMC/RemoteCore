@@ -1,9 +1,8 @@
 <a href="https://tacticaldevmc.me"><h1>TacticalDevMC</h1></a>
 <img width="200px" align="right" src="https://i.imgur.com/p90vMhe.png">
-<h3>Portfolio ───────</h3>
 
-| RemoteCore API | | |
-| --- | --- | --- |
+
+### RemoteCore API
 <br>Gebruik van de RemoteCore-API.<br>
 Voor meer informatie zie [Waarom RemoteCore?](https://github.com/TacticalDevMC/RemoteCore/wiki/Why-RemoteCore)
 # RemoteCore-API
@@ -21,7 +20,7 @@ Wat doet de RemoteCore-API? Nou, de API zorgt ervoor dat jij in jou eigen plugin
 | getSuffix                          | RemoteCommon.getPlayer(player).getSuffix();|
 
 <br><br>
-##Initializing API
+## Initializing API
 ```java
 public class InitAPI {
     private RemoteAPI api;
