@@ -12,14 +12,20 @@ import org.bukkit.plugin.Plugin;
  * Copyright © 2020, Joran Huibers, All rights reserved.
  */
 
-public class RemoteCommon {
+public class RemoteAPI {
 
     private Plugin plugin;
     private PlayerData playerData;
+    private boolean init;
 
-    public RemoteCommon(Plugin plugin) {
+    public RemoteAPI(Plugin plugin) {
         this.plugin = plugin;
+    }
+
+    public void init() {
         this.playerData = new PlayerData();
+
+        init = true;
     }
 
     public RemotePlayer getPlayer(Player player) {
@@ -28,6 +34,10 @@ public class RemoteCommon {
 
     public RemoteOfflinePlayer getPlayer(OfflinePlayer offlinePlayer) {
         return playerData.getRemoteOfflinePlayer(offlinePlayer);
+    }
+
+    public boolean isInit() {
+        return init;
     }
 
 }
