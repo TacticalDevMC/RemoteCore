@@ -1,7 +1,7 @@
 package com.github.tacticaldevmc.remotecorecommon;
 
-import com.github.tacticaldevmc.remotecore.remotecore.player.RemoteOfflinePlayer;
-import com.github.tacticaldevmc.remotecore.remotecore.player.RemotePlayer;
+import com.github.tacticaldevmc.remotecore.player.RemoteOfflinePlayer;
+import com.github.tacticaldevmc.remotecore.player.RemotePlayer;
 import com.github.tacticaldevmc.remotecorecommon.data.PlayerData;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
@@ -14,7 +14,7 @@ import org.bukkit.plugin.Plugin;
 
 public class RemoteAPI {
 
-    private Plugin plugin;
+    private final Plugin plugin;
     private PlayerData playerData;
     private boolean init;
 

@@ -1,7 +1,7 @@
 package com.github.tacticaldevmc.remotecorecommon.test;
 
-import com.github.tacticaldevmc.remotecore.remotecore.RemoteCoreSpigot;
-import com.github.tacticaldevmc.remotecore.remotecore.logs.LogHandler;
+import com.github.tacticaldevmc.remotecore.RemoteCoreSpigot;
+import com.github.tacticaldevmc.remotecore.logs.LogHandler;
 import com.github.tacticaldevmc.remotecorecommon.RemoteAPI;
 
 /**

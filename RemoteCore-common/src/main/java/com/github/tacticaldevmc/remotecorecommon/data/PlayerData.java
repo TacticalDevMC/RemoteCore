@@ -1,7 +1,7 @@
 package com.github.tacticaldevmc.remotecorecommon.data;
 
-import com.github.tacticaldevmc.remotecore.remotecore.player.RemoteOfflinePlayer;
-import com.github.tacticaldevmc.remotecore.remotecore.player.RemotePlayer;
+import com.github.tacticaldevmc.remotecore.player.RemoteOfflinePlayer;
+import com.github.tacticaldevmc.remotecore.player.RemotePlayer;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 

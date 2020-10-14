@@ -52,6 +52,14 @@ minecraft-discord:
     - ranks
 
 ##############################
+#     REMOTECORE CHAT        #
+##############################
+format: "&7<player>: &f<message>"
+#format: "[<rank>] &7<player>: &f<message>"
+#format: "[<prefix>] &7<player>: &f<message>"
+#format: "[<suffix>] &7<player>: &f<message>"
+
+##############################
 #     REMOTECORE BOT         #
 ##############################
 token: ""
