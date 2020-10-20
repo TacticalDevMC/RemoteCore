@@ -53,7 +53,6 @@ public class RankCreateSubCommand {
         rankData.createRank(prefix, color);
         user.sendMessage(RemoteMessages.RANK_CREATE_CREATED, name);
 
-        // TODO: Sync rank to discord
         if (settings.minecraftDiscord()) {
             RoleAction roleAction = Main.getJda().getGuildById(settings.getGuildID()).createRole().setName(name).setColor(Color.decode(color)).setMentionable(true);
             Role role = roleAction.complete();

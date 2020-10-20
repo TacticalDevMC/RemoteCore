@@ -10,14 +10,14 @@ Wat doet de RemoteCore-API? Nou, de API zorgt ervoor dat jij in jou eigen plugin
 
 | Functie                            | Methode      |
 | :--------------------------------- | :----------- |
-| getPlayer                          | RemoteCommon.getPlayer(player);|
-| getOfflinePlayer                   | RemoteCommon.getPlayer(offlinePlayer);|
-| setRank                            | RemoteCommon.getPlayer(player).setRank(rank);|
-| setPrefix                          | RemoteCommon.getPlayer(player).setPrefix(prefix);|
-| setSuffix                          | RemoteCommon.getPlayer(player).setSuffix(suffix);|
-| getRank                            | RemoteCommon.getPlayer(player).getRank();|
-| getPrefix                          | RemoteCommon.getPlayer(player).getPrefix();|
-| getSuffix                          | RemoteCommon.getPlayer(player).getSuffix();|
+| getPlayer                          | RemoteAPI.getPlayer(player);|
+| getOfflinePlayer                   | RemoteAPI.getPlayer(offlinePlayer);|
+| setRank                            | RemoteAPI.getPlayer(player).setRank(rank);|
+| setPrefix                          | RemoteAPI.getPlayer(player).setPrefix(prefix);|
+| setSuffix                          | RemoteAPI.getPlayer(player).setSuffix(suffix);|
+| getRank                            | RemoteAPI.getPlayer(player).getRank();|
+| getPrefix                          | RemoteAPI.getPlayer(player).getPrefix();|
+| getSuffix                          | RemoteAPI.getPlayer(player).getSuffix();|
 
 <br><br>
 ## Initializing API
